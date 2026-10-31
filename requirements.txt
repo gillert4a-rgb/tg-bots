@@ -1,0 +1,4 @@
+aiogram>=3.15
+yt-dlp>=2025.6
+python-dotenv>=1.0
+mutagen>=1.47
