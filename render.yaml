@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: videotet-bots
+    runtime: docker
+    plan: free
+    envVars:
+      - key: VIDEO_BOT_TOKEN
+        sync: false
+      - key: MUSIC_BOT_TOKEN
+        sync: false
